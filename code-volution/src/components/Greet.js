@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Greet(){
+function Greet({name,heroname}){
     return(
 
         <>
-        <h1>Hello</h1>
+        <h1>{name} {heroname}</h1>
         </>
     )
     
