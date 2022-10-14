@@ -13,6 +13,11 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import StyleSheet from './components/StyleSheet';
 import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
+import PureComp from './components/PureComponent';
+import ParentCompo from './ParentCompo';
+import RefDemo from './RefDemo';
+import RFParentInput from './RFParentInput';
 function App() {
   return (
     <div className="App">
@@ -26,10 +31,15 @@ function App() {
     {/* <EventBind /> */}
     {/* <ParentComponent /> */}
     {/* < UserGreeting /> */}
-    < NameList />
+    {/* < NameList /> */}
     {/* <StyleSheet /> */}
 
     {/* <LifeCycleA  name="hello"/> */}
+    {/* < FragmentDemo /> */}
+    {/* <PureComp /> */}
+    {/* <ParentCompo /> */}
+    {/* <RefDemo /> */}
+    <RFParentInput />
     </div>
   );
 }
