@@ -9,3 +9,4 @@ const REInput = React.forwardRef((props,ref)=>{
 })
 
 export default REInput
+// var b = JSON.parse(JSON.stringify(name));

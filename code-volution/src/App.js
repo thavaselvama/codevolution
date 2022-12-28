@@ -34,12 +34,12 @@ function App() {
     {/* < NameList /> */}
     {/* <StyleSheet /> */}
 
-    {/* <LifeCycleA  name="hello"/> */}
+    <LifeCycleA  name="hello"/>
     {/* < FragmentDemo /> */}
     {/* <PureComp /> */}
     {/* <ParentCompo /> */}
     {/* <RefDemo /> */}
-    <RFParentInput />
+    {/* <RFParentInput /> */}
     </div>
   );
 }
